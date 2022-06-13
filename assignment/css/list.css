@@ -1,0 +1,67 @@
+:root {
+    --fontcolor: #858585;
+    --maincolor: #15B283;
+
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section4{
+    
+    width: 69%;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.section4 .thongtin{
+    
+    height: 300px;
+    padding: 5px;
+    margin: 5px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section4 .thongtin .hinh{
+    margin: 0px 10px;
+}
+.section4 .thongtin .hinh img{
+    width: 100%;
+}
+.section4 .thongtin .text{
+    white-space: nowrap;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section5{
+    
+    width: 29%;
+    text-align: left;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.section5 h3{
+    color: var(--maincolor);
+}
+.section5 .news .text{
+    border: 1px dotted var(--fontcolor);
+    border-top: 2px solid var(--maincolor);
+    padding: 10px;
+}
+
+.section5 .news .text a:hover{
+    color: var(--maincolor);
+    font-weight: bold;
+    
+}
+
+
+footer{
+    display: block;
+}
+
+footer .container{
+    clear: both;
+}

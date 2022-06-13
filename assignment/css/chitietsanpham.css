@@ -1,0 +1,51 @@
+:root {
+    --fontcolor: #858585;
+    --maincolor: #15B283;
+
+}
+
+.headsection{
+    text-align: left;
+}
+
+.section5{
+    text-align: left;
+}
+.section5 .main{
+    display: flex;
+}
+.section5 .main .text{
+    padding-left: 15px;
+}
+.section5 .tieude{
+    color: black;
+}
+
+.section5 .text .detail h4{
+    color: var(--maincolor);
+    font-size: 16px;;
+}
+
+.section5 .main .hinhanh{
+    position: relative;
+    width: 40%;
+}
+.section5 .main .hinhanh img{
+    width: 100%;
+}
+/* .section5 .main .btn-next{
+    position: absolute;
+    top: 100px;
+    right: -20px;
+} */
+
+.section6{
+    text-align: left;
+}
+.section6 .detail{
+    border: 1px solid var(--fontcolor);
+    padding: 10px;
+    margin: 10px 0px;
+    margin-top: 0px;
+    line-height: 20px;
+}
