@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+
+    header .container #top,
+    header .container #mid,
+    header .navbar {
+        width: 100%;
+    }
+    header .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    header .container #top {
+        display: none;
+    }
+
+    header .container #mid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar--menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    main {
+        width: 100%;
+    }
+    main .section{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container{
+        width: 100%;
+    }
+}

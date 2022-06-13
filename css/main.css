@@ -1,0 +1,393 @@
+:root {
+    --fontcolor: #858585;
+    --maincolor: #15B283;
+
+}
+
+body {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--fontcolor);
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fontcolor);
+}
+
+
+
+#top {
+    border-bottom: 1px solid var(--fontcolor);
+    margin: auto;
+    padding: 0px;
+    display: block;
+}
+
+.topmenu {
+    text-align: right;
+    width: calc(100% - 500px);
+    display: block;
+    padding: 0px;
+    position: relative;
+    margin: auto;
+}
+
+.topmenu--list,
+.topmenu--search {
+    display: inline-block;
+    text-align: right;
+    margin: 0px;
+}
+
+.topmenu--list ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px;
+    border-left: 1px solid var(--fontcolor);
+    line-height: 20px;
+}
+
+.topmenu--list ul li:first-child {
+    border-left: none;
+}
+
+.topmenu--search ul li {
+    list-style-type: none;
+    border-left: 1px solid var(--fontcolor);
+    padding: 0px 10px;
+    line-height: 20px;
+}
+
+#mid {
+    width: calc(100% - 500px);
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+#mid .banner a img{
+    width: 100%;
+}
+#mid .banner a img{
+    width: 100%;
+}
+.lienhe {
+    text-align: center;
+}
+
+.lienhe .text {
+    line-height: 21px;
+    font-size: 18px;
+    margin: 3px;
+    font-weight: 500;
+}
+
+.lienhe .sdt {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: red;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    line-height: 21px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.lienhe .icon div {
+    display: inline-block;
+}
+
+.lienhe .icon {
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* .lienhe .icon a {
+    margin: 20px;
+} */
+
+
+.navbar {
+    background-color: #15B283;
+    padding: 0px;
+    display: flex;
+    width: calc(100% - 500px);
+    margin: auto;
+}
+
+#toggle{
+    display: none;
+    background-color: var(--maincolor);
+    color: white;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#navbar--menu{
+    margin: 0px;
+    display: flex;
+}
+
+
+
+
+
+#navbar--menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 15px;
+}
+
+#navbar--menu li:hover a {
+    background-color: #fb6030;
+}
+
+main {
+    text-align: center;
+    width: calc(100% - 500px);
+    margin: auto;
+}
+
+main .banner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main .banner a img{
+    width: 100%;
+}
+.section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section .search {
+    width: 500px;
+    height: 580px;
+    background-color: #F0F0F0;
+    text-align: left;
+    padding: 25px;
+    position: relative;
+    margin: 10px;
+}
+
+.search--top {
+    width: 220px;
+    line-height: 45px;
+    color: white;
+    background-color: var(--maincolor);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.search .text {
+    margin-top: 95px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.search--type select {
+    width: 100%;
+    padding: 15px;
+    margin: 22.5px auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.search--box input {
+    width: 92%;
+    padding: 15px;
+    margin: 22.5px auto;
+    border: none;
+}
+
+.search--btn {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search--btn button {
+    background-color: var(--maincolor);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    width: 340px;
+    height: 60px;
+}
+
+.search--lienhe .sdt {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.search--lienhe {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.section .news {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news--hot{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.section .news .news--img {
+    
+    margin-right: 5px;
+    
+}
+
+.section .news .news--menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.section .news .news--text {
+    margin-left: 5px;
+    
+}
+
+.section .news .news--menu {
+    width: 100%;
+}
+
+.news--menu .news--menu--name {
+    border: 0.5px dashed var(--fontcolor);
+    padding: 10px;
+}
+
+.news--menu .news--menu--name a {
+    color: black;
+}
+
+.news--menu .news--menu--name h3 a {
+    float: left;
+    width: 60%;
+}
+
+.section2,
+.section3 {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+
+.section2 .thongtin {
+    
+    width: 24%;
+    border: 1px solid var(--fontcolor);
+    margin: 5px;
+    
+}
+
+.thongtin .thongtin--img img{
+    width: 98%;
+    text-align: center;
+    
+}
+
+.thongtin--text {
+    text-align: left;
+    padding: 10px;
+}
+
+.thongtin--text .text--topic a{
+    color: var(--maincolor);
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.thongtin--text .text--btn {
+    text-align: center;
+}
+
+.thongtin--text .text--btn button {
+    text-align: center;
+    color: white;
+    background-color: var(--maincolor);
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+.sidetalk {
+    border: 1px solid var(--maincolor);
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin: 10px;
+}
+
+.sidetalk a {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3D3D3D;
+    color: white;
+}
+
+footer .container {
+    width: calc(100% - 500px);
+    margin: auto;
+    min-height: 200px;
+}
+
+footer .container .info{
+    float: left;
+    width: 30%;
+}
+
+footer .container .list{
+    float: left;
+    width: 30%;
+}
+
+footer .container .dangky{
+    float: left;
+    width: 30%;
+}
+footer .container .list a{
+    color: white;
+}
+
+footer .footer{
+    text-align: center;
+    background-color: #2F2F2F;
+    padding: 10px;
+    color: white;
+    font-style: italic;
+}
